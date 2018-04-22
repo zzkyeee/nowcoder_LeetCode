@@ -3,7 +3,7 @@ package niuke;
 public class Problem10 {
 
     public ListNode insertionSortList(ListNode head) {
-        if (head == null) return null;
+        if (head == null) { return null; }
         ListNode l = head.next;
         while (l != null) {
             ListNode temp = head;
