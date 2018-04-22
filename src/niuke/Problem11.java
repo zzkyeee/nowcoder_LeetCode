@@ -20,7 +20,7 @@ public class Problem11 {
                  pre = last;
                  last = last.next;
              }
-             if(first == pre) break;
+             if(first == pre) { break; }
              last.next = first.next;
              first.next = last;
              pre.next = null;
