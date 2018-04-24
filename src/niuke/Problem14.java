@@ -1,7 +1,16 @@
 package niuke;
 
 /**
- * @Description: LeetCode算法题
+ * @Description:
+ * 题目名称：	word-break
+ * 题目描述：Given a string s and a dictionary of words dict,
+ * determine if s can be segmented into a space-separated sequence of one or more dictionary words.
+ *
+ * For example, given
+ * s ="leetcode",
+ * dict =["leet", "code"].
+ * Return true because"leetcode"can be segmented as"leet code".
+ *
  * @author: zhangzhikai
  * @date: 2018/4/22 下午3:42
  * @version: V1.0.0
@@ -10,17 +19,6 @@ package niuke;
 
 import java.util.HashSet;
 import java.util.Set;
-
-/**
- * 题目名称：	word-break
- * 题目描述：Given a string s and a dictionary of words dict, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
-
- For example, given
- s ="leetcode",
- dict =["leet", "code"].
-
- Return true because"leetcode"can be segmented as"leet code".
- */
 
 public class Problem14 {
     public boolean wordBreak(String s, Set<String> dict) {
